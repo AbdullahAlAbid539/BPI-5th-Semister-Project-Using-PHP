@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPI LIST</title>
+    <link rel="shortcut icon" href="asset/download.jfif">
+    <style>
+        body {
+            background-image: url('bgimg.jpg');
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: larger;
+            font-style: initial;
+            color: black;
+            font-display: auto;
+            background-color: white;
+            background-size: auto;
+        }
+
+        h2 {
+            font-display: auto;
+        }
+
+        div {
+            color: red;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <h1><center><b><u> ----- >>> Team ART-JS <<< ----- </u></b></center></h1>
+    <br> 
+    <h2><marquee behavior="Float" direction="right to left"><i><b> ---- <<<< * * '''Welcome to 5-CST Team ART-JS project work''' * * >>>> ---- </b></i></marquee></h2>
+    <br>
+    <form action="ai.php" method="post">
+        <div>
+            <center>
+                <div>
+                    <label for="username">username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div><br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+                <div>
+                    <label for="number">Number:</label>
+                    <input type="phone" id="number" name="number" required>
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="8" required>
+                </div><br>
+                <div>
+                    <label for="birthday">Date of Birth:</label>
+                    <input type="date" id="birthday" name="birthday" required> 
+                </div><br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="Gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="female" value="female" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="others" value="others">
+                    <label for="others">Others</label><br>
+                </div>
+                <button type="submit">Submit</button>
+
+
+
+            </center>
+        </div>
+    </form>
+</body>
+</html>
